@@ -1,29 +1,69 @@
-@media (max-width: 1200px)/*  до размера 992 */
-{
-
+@media (max-width: 1200px)/*  до размера 992 */{
+    .header {
+        justify-content: space-around;
+        &__phone {
+            margin-right: 30px;
+        }
+        button {
+            margin-right: 40px;   
+        }
+    }  
+    .promo {
+        &__header {
+          margin-right: 70px;
+        }
+        &__subheader {
+          margin-right: 70px;   
+        }
+        &__icons {
+            width: 900px;
+            justify-content: center;
+        }
+        &__link {
+          margin-right: 70px;    
+        } 
+    }
+    .advantages {
+        padding: 30px 0 30px 0;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &_h3 {
+            margin-top: 18px;
+            font-size: 16px;
+        }
+        &_p {
+            font-size: 12px;
+            padding: 0 7px 0 7px;
+        }
+    }
 }
 
 @media (max-width: 992px)/*  до размера 768 */ {
   .header {
       justify-content: space-around;
+      &__phone {
+        margin-right: 70px;
+      }
   }  
   .promo {
       &__header {
-        margin-right: 30px;
+        margin-right: 150px;
       }
       &__subheader {
-        margin-right: 30px;   
+        margin-right: 150px;   
       }
       &__icons {
         justify-content: space-around;
       }
       &__link {
-        margin-right: 30px;    
+        margin-right: 70px;    
       } 
   }
   .button {
-      margin-right: 30px;
+      margin-right: 50px;
   }
+  
 }
 @media (max-width: 768px)/*  до размера 576 */
 {
@@ -126,7 +166,4 @@
             margin-top: 0;
         }
     }
-
-
-  
 }
